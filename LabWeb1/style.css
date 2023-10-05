@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 3vmin;
+}
+
+div {
+    justify-content: center;
+    display: flex;
+    word-break: break-word;
+    white-space: normal;
+    outline: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    font-size: 5vmin;
+    margin: 20px;
+    text-align: left;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+ul {
+    font-size: 5vmin;
+}
+
+.block_1-5 {
+    flex-direction: row;
+    width: 100%;
+}
+
+.block_2-5 {
+    flex-grow: 1;
+    flex-direction: column;
+    width: 75%;
+}
+
+.block_3-5 {
+    flex-grow: 1;
+    flex-direction: row;
+    width: 100%;
+}
+
+.block_3and5 {
+    flex-grow: 1;
+    flex-direction: column;
+    width: 66%;
+}
+
+.block_1 {
+    align-items: center;
+    flex-grow: 1;
+    width: 25%;
+    text-align: center;
+    background-color: lightpink;
+    min-height: 550px;
+}
+
+.block_2 {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block_3 {
+    width: 100%;
+    text-align: right;
+    background-color: #eaf2dd;
+    min-height: 50px;
+}
+
+.block_4 {
+    flex-grow: 1;
+    width: 34%;
+    text-align: center;
+    background-color: #eaf2dd;
+    min-height: 400px;
+    align-items: center;
+}
+
+.block_5 {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    min-height: 350px;
+
+}
+
+.block_6 {
+    width: 100%;
+    background-color: lightblue;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block_x,
+.block_y {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.block_2 p {
+    width: 50%;
+}
+
+.block_x {
+    width: 35%;
+    margin-right: 5%;
+}
+
+.block_y {
+    width: 28%;
+    margin-left: 5%;
+}
+
+.block_6 a {
+    width: 50%;
+    margin-right: 5%;
+    text-align: right;
+    font-size: 4vmin;
+}
+
+.picture {
+    flex-grow: 1;
+    display: flex;
+    max-width: 100%;
+    margin: 1px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
