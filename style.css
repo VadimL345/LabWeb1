@@ -94,7 +94,6 @@ ul {
     text-align: center;
     background-color: #eaf2dd;
     min-height: 400px;
-    align-items: center;
 }
 
 .block_5 {
@@ -148,10 +147,20 @@ ul {
 }
 
 .picture {
-    flex-grow: 1;
-    display: flex;
     max-width: 100%;
     margin: 1px;
     margin-right: 2px;
     margin-bottom: 2px;
+    width: fit-content;
+    height: fit-content;
+    max-height: 330px;
+}
+
+.picture_film {
+    max-width: 100%;
+    margin: 1px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: 660px;
+    height: fit-content;
 }
